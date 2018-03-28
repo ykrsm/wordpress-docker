@@ -32,10 +32,12 @@ Wordpress keeps your post data, user data, etc in the MySQL.
 You will need the SQL dump file to initialize your wordpress container.
 To do it, we are going to use the WordPress plug in called "All-in-One WP Migration"
 Get it in your live site (WordPress site that you want to containerlize)
-![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.19.10%20PM.png)
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.24.50%20PM.png)
 
 Please follow the next step carefully.
 Activate All-in-One WP Migration and go to the export page from the side bar.
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.48.41%20PM.png)
+
 Click "Advanced options" and select followings:
 * Do not expoert media library (files)
 * Do not expoert themes (files)
@@ -64,5 +66,14 @@ Now, get the content file that you got in step 2. I will call this file `origina
 Open `wp-content` in `original file` and you will see something like this.
 ![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.52.54%20PM.png)
 
+From the `wp-content` in `original file`, copy the `plugins`, `themes` and `uploads` into the project folder.
 
-# Step 5 Migrate the database
+# Step 5 Start the docker containers
+Now, you can start docker and initialize your containerlized wordpress.
+In the project directory, type
+```
+docker-compose up
+```
+You will see many output but no worries. Docker is initializing wordpress.
+When no more output is coming, access `localhost:80` in your browser.
+# Step 6 Migrate the database
