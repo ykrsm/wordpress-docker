@@ -32,11 +32,12 @@ Wordpress keeps your post data, user data, etc in the MySQL.
 You will need the SQL dump file to initialize your wordpress container.
 To do it, we are going to use the WordPress plug in called "All-in-One WP Migration"
 Get it in your live site (WordPress site that you want to containerlize)
+
 ![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.24.50%20PM.png)
 
 Please follow the next step carefully.
 Activate All-in-One WP Migration and go to the export page from the side bar.
-![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.48.41%20PM.png)
+
 
 Click "Advanced options" and select followings:
 * Do not expoert media library (files)
@@ -46,6 +47,8 @@ Click "Advanced options" and select followings:
 
 Click "Export To" and select "File".
 Download the file and keep it where you can find it. You will need it later in this tutorial.
+
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.48.41%20PM.png)
 
 # Step 4 Prepare your wordpress container
 Clone this repo in the directory you want to keep your wordpress files.
