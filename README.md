@@ -78,4 +78,14 @@ docker-compose up
 ```
 You will see many output but no worries. Docker is initializing wordpress.
 When no more output is coming, access `localhost:80` in your browser.
+
+You will see the initialization page of wordpress.
+Select your language.
+
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.21.00%20PM.png)
+
+Type `test` for input fields. This user will be erased once you migrate the database in the next step.
+
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.21.17%20PM.png)
+
 # Step 6 Migrate the database
