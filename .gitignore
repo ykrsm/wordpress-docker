@@ -89,5 +89,6 @@ wp-content/uploads/
 # "themes" directory
 wp-content/*
 !wp-content/mu-plugins/
+!/doc/
 !wp-content/plugins/
 !wp-content/themes/twenty-seventeen-child/
