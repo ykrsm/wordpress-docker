@@ -48,7 +48,6 @@ Click "Advanced options" and select followings:
 Click "Export To" and select "File".
 Download the file and keep it where you can find it. You will need it later in this tutorial.
 
-![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.48.41%20PM.png)
 
 # Step 4 Prepare your wordpress container
 Clone this repo in the directory you want to keep your wordpress files.
