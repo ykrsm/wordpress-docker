@@ -88,4 +88,30 @@ Type `test` for input fields. This user will be erased once you migrate the data
 
 ![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.21.17%20PM.png)
 
+
 # Step 6 Migrate the database
+
+Now, go to plugins and activate `All-in-One WP Migration`.
+
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.21.56%20PM.png)
+
+Go to `All-in-One WP Migration` and click "import".
+
+Drag and drop the database dump that you created in step 3.
+
+Click "proceed"
+
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.22.42%20PM.png)
+
+After migration is done you will see this.
+Follow the instruction and save the permalinks twice.
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.23.09%20PM.png)
+
+# Step 7 Congratulation!
+Now you have running docker container for your wordpress dev environment 💯 
+
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.24.11%20PM.png)
+
+# Reference
+[EASY WORDPRESS MIGRATION WITH DOCKER](https://joshmobley.net/writing/2017/04/09/easy-wordpress-migration-with-docker.html)
+I copied and modified his docker-compose.yaml file.
