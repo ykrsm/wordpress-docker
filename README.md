@@ -12,7 +12,7 @@ Last time I test it is 2018/3/27
 
 # Step 1 Backup your production site.
 I used WPEngine to host my wordpress site, and they have easy way to back up your production site.
-
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%209.40.28%20PM.png)
 
 # Step 1 Get your content
 # Step 1 Get database dump
