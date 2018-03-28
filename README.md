@@ -59,5 +59,10 @@ You will see following files in the project.
 
 You only need `docker-compose.yaml` and `wp-content`. You can delete rest of files if you want.
 
+Now, get the content file that you got in step 2. I will call this file `original file`. If `original file` was zip file, unzip it and you will see many files and directories inside of `original file`. You will only need directory `wp-content`.
+
+Open `wp-content` in `original file` and you will see something like this.
+![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2010.52.54%20PM.png)
+
 
 # Step 5 Migrate the database
