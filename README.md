@@ -1,7 +1,7 @@
-# Instruction to create local wordpress development enviroment usign Docker
+# Instruction to create local wordpress development enviroment using Docker
 
 # Prerequisite
-To have the best output please try your best to prepare as close as possible enviroment as I used this make this happen.
+To have the best output, please try your best to replicate my environment.
 Last time I test it is 2018/3/27
 
 * macOS Sierra (Version 10.12.6)
