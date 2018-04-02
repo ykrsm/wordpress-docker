@@ -55,7 +55,7 @@ For example, you can do following.
 ```
 mkdir wordpress-docker
 cd wordpress-docker
-git clone https://github.com/YukiKuroshima/wordpress-docker.git
+git clone https://github.com/YukiKuroshima/wordpress-docker.git .
 ```
 You will see following files in the project.
 
@@ -111,6 +111,10 @@ Follow the instruction and save the permalinks twice.
 Now you have running docker container for your wordpress dev environment 💯 
 
 ![alt text](https://github.com/YukiKuroshima/wordpress-docker/blob/master/doc/Screen%20Shot%202018-03-27%20at%2011.24.11%20PM.png)
+
+# Notes
+## You may get error if you are using Google analytics plugin.
+If you are using Google Analytics plugin, so far the only solution is to remove them.
 
 # Reference
 [EASY WORDPRESS MIGRATION WITH DOCKER](https://joshmobley.net/writing/2017/04/09/easy-wordpress-migration-with-docker.html)
