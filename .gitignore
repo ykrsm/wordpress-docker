@@ -90,5 +90,6 @@ wp-content/uploads/
 wp-content/*
 !wp-content/mu-plugins/
 !/doc/
+!docker-compose.yaml
 !wp-content/plugins/
 !wp-content/themes/twenty-seventeen-child/
